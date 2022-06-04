@@ -1,0 +1,6 @@
+(lang dune 3.2)
+
+(env
+ (_
+  (env-vars
+   (BOT_TOKEN "token"))))

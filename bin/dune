@@ -1,0 +1,6 @@
+(executable
+ (public_name telegram_bot)
+ (name main)
+ (libraries telegram_bot core core_unix.command_unix cohttp-async yojson)
+ (preprocess
+  (pps ppx_let)))
